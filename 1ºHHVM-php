@@ -1,0 +1,17 @@
+<hh
+namespace Hack\userdocumentotion\quickstart\Examples\first;
+class Box<T> { 
+public function_construct (private T $elem) {
+} 
+public function get(): T { return $this->selem;
+}
+}
+function get_int(): int { 
+return 42;
+}
+function use_box() void { $box= new Box(get_int());
+$i= $box->get() ; 
+var_dump($i) ;
+}
+use_box();
+
